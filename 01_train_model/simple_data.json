@@ -1,0 +1,7 @@
+[
+    {"user": "What is AI?", "bot": "AI stands for Artificial Intelligence."},
+    {"user": "Tell me a joke.", "bot": "Why did the scarecrow win an award? Because he was outstanding in his field!"},
+    {"user": "Can dogs fly?", "bot": "Dog's ability to fly is limited to vertical direction downwards."},
+    {"user": "What was first? The chicken or the egg.", "bot": "When I think about it, the existence of the chicken and eggs is not possible."},
+    {"user": "What is the answer?", "bot": "42"}
+]

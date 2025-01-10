@@ -1,0 +1,17 @@
+This product includes the AI model Llama 3.2 by Ollama, licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
+
+This product includes the AI model all-mpnet-base-v2 by Sentence Transformers, licensed under the Apache License Version 2.0.
+
+This product includes Ollama, licensed under the MIT License.
+
+This product includes OllamaSharp by Andreas Wäscher, licensed under the MIT License.
+
+This product includes hnswlib, licensed under the Apache License Version 2.0.
+
+This product includes Flask, licensed under the BSD 3-Clause License.
+
+This product includes sentence transformers, licensed under the Apache License Version 2.0.
+
+This product includes BeautifulSoup4, licensed under the MIT License.
+
+This product includes pdfplumber, licensed under the MIT License.

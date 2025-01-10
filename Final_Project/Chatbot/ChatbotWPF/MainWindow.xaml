@@ -1,0 +1,38 @@
+﻿<Window x:Class="ChatbotWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chatbot (Built with Llama)" Height="400" Width="350">
+    <Grid>
+        <!-- ListBox with wrapping text, no horizontal scrollbar -->
+        <ListBox x:Name="ChatHistoryListBox"
+                 ItemsSource="{Binding ChatHistory}" 
+                 Margin="10,10,10,88"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+            <!-- Wrap each list item’s text in a TextBlock -->
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" TextWrapping="Wrap"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!-- Multi-line TextBox with wrapping, no horizontal scrollbar -->
+        <TextBox x:Name="UserInput" 
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 HorizontalScrollBarVisibility="Disabled" 
+                 VerticalScrollBarVisibility="Auto"
+                 Height="60" VerticalAlignment="Bottom"
+                 Margin="10,0,90,10"
+                 KeyDown="UserInput_KeyDown"/>
+
+        <!-- Send Button -->
+        <Button Content="Send" 
+                VerticalAlignment="Bottom" 
+                Height="30"
+                Width="70" Margin="0,0,10,10" 
+                HorizontalAlignment="Right"
+                Click="SendButton_Click"/>
+    </Grid>
+</Window>
